@@ -129,29 +129,29 @@ function manipulaArray(){
   
   cores.push("laranja")
 
-  console.log("laranja adicionado: "+cores)
+  console.log("laranja adicionado: ",cores)
 
   let pop = cores.pop()
 
-  console.log("array com elemento removido: "+cores)
+  console.log("array com elemento removido: ",cores)
 
   let sort = cores.sort()
 
-  console.log(cores)
+  console.log("array com sort: ",cores)
 
-  let splice = cores.splice("azul")
+  let splice = cores.splice()
 
- console.log(cores)
+ console.log("array com splice: " ,cores)
 
  console.log(cores[0],cores[9])
 
  cores.unshift("fuscia")
 
- console.log("fuscia adicionado: " +cores)
+ console.log("fuscia adicionado: " ,cores)
 
   let shift = cores.shift()
 
-console.log("array com o shift: "+cores)
+console.log("array com o shift: ",cores)
 
 
 
