@@ -39,8 +39,10 @@ function soma(){
 
 function subtracao(n1, n2){
 
+  n1=parseInt(n1)
+  n2=parseInt(n2)
   alert("subtracao realizada")
-
+  
 
   console.log(n1-n2)
 
@@ -114,7 +116,10 @@ console.log(usuario)
   
     console.log(nome)
 
-   prompt("digite um novo valor:")
+   let nome2 = prompt("digite um novo valor:")
+   
+   nome=nome2
+   
    console.log(nome)
 }
 
@@ -123,9 +128,9 @@ console.log(usuario)
 
 function manipulaArray(){
   
-  cores = ["branco, azul, vermelho, verde, preto, amarelo, marrom, violeta, rosa, ciano, magenta, cinza"]
+  cores = ["branco", "azul", "vermelho", "verde", "preto", "amarelo", "marrom", "violeta", "rosa", "ciano", "magenta", "cinza"]
 
-  console.log(cores)
+  console.log("array original",cores)
   
   cores.push("laranja")
 
@@ -133,17 +138,18 @@ function manipulaArray(){
 
   let pop = cores.pop()
 
-  console.log("array com elemento removido: ",cores)
-
+  console.log("elemento removido pelo pop: ",pop)
+  console.log("array apos o pop:",cores)
+  
   let sort = cores.sort()
 
-  console.log("array com sort: ",cores)
+  console.log("array apos o sort: ",sort)
 
   let splice = cores.splice()
 
- console.log("array com splice: " ,cores)
+ console.log("array apos o splice: " ,splice)
 
- console.log(cores[0],cores[9])
+ console.log("primeiro e ultimo elemento:",cores[0],cores[11])
 
  cores.unshift("fuscia")
 
@@ -151,7 +157,7 @@ function manipulaArray(){
 
   let shift = cores.shift()
 
-console.log("array com o shift: ",cores)
+console.log("array apos o shift: ",shift)
 
 
 
