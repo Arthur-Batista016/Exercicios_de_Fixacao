@@ -39,6 +39,8 @@ function soma(){
 
 function subtracao(n1, n2){
 
+  n1= Number(prompt("digite o primeiro numero:"))
+  n2 = Number(prompt("digite o segundo numero:"))
   
   alert("subtracao realizada")
   
