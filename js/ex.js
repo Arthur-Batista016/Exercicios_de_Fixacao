@@ -1,9 +1,12 @@
+//exercicio 1
+
+//1.1
 function olaMundo(){
     alert("OLÁ MUNDO!!!")
  
 }
 
-
+//1.3
 function mostraNome(){
     let nome = prompt("digite seu nome:") 
 
@@ -11,7 +14,7 @@ function mostraNome(){
 
 }
 
-
+//1.3
 function concatenaPalavras(){
 
      let p1 = prompt("digite uma palavra:")
@@ -25,6 +28,7 @@ function concatenaPalavras(){
 
 // exercicio 2 //
 
+//2.1
 function soma(){
 
     let n1 = parseInt(prompt("digite o primeiro numero:"))
@@ -37,10 +41,17 @@ function soma(){
 
 }
 
+//2.2
+function valoresSub(){
+
+  let n1= Number(prompt("digite o primeiro numero:"))
+  let n2 = Number(prompt("digite o segundo numero:"))
+   subtracao(n1,n2)
+}
+
 function subtracao(n1, n2){
 
-  n1= Number(prompt("digite o primeiro numero:"))
-  n2 = Number(prompt("digite o segundo numero:"))
+ 
   
   alert("subtracao realizada")
   
@@ -51,6 +62,8 @@ function subtracao(n1, n2){
 
 
 }
+
+//2.3
 
 function CriaObjeto(){
 
@@ -78,6 +91,7 @@ console.log(usuario)
 
 // exercicio 3 //
 
+  //3.1
   function calculadora(){
    let  n1 = parseInt(prompt("digite o primeiro numero:"));
    let n2 = parseInt(prompt("digite o segundo valor:"));
@@ -110,7 +124,7 @@ console.log(usuario)
 
   }
 
-
+  //3.2
   function mudaConstante(){
 
    const nome = prompt("digite seu nome:")
@@ -127,6 +141,7 @@ console.log(usuario)
 
 // exercicio 4 //
 
+//3.1
 function manipulaArray(){
   
   cores = ["branco", "azul", "vermelho", "verde", "preto", "amarelo", "marrom", "violeta", "rosa", "ciano", "magenta", "cinza"]
